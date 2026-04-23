@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d4ncyhep4ggqg"]
+
+[ext_resource type="Script" uid="uid://dpddtkbsc4b6" path="res://grid.gd" id="1_a433f"]
+
+[node name="Grid" type="Panel" unique_id=539557765]
+offset_right = 14.502762
+offset_bottom = 15.976332
+scale = Vector2(7.24, 6.7599993)
+script = ExtResource("1_a433f")

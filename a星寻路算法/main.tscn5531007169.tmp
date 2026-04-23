@@ -1,0 +1,600 @@
+[gd_scene format=3 uid="uid://bxaiiwacdwcls"]
+
+[ext_resource type="Script" uid="uid://dfggpxivubccj" path="res://grid_container.gd" id="1_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=574170070]
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1617894166 node_paths=PackedStringArray("moving_grid", "end_grid")]
+offset_left = 36.0
+offset_top = 26.0
+offset_right = 651.0
+offset_bottom = 630.0
+columns = 6
+script = ExtResource("1_0xm2m")
+moving_grid = NodePath("Panel3")
+end_grid = NodePath("Panel19")
+
+[node name="Panel" type="ColorRect" parent="GridContainer" unique_id=1315726511]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel" unique_id=2044581483]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel2" type="ColorRect" parent="GridContainer" unique_id=1590953194]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel2" unique_id=186718350]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel3" type="ColorRect" parent="GridContainer" unique_id=1578521759]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel3" unique_id=873671924]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel4" type="ColorRect" parent="GridContainer" unique_id=581779800]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel4" unique_id=1532030341]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel5" type="ColorRect" parent="GridContainer" unique_id=692065696]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel5" unique_id=2077558686]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel6" type="ColorRect" parent="GridContainer" unique_id=1955966963]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel6" unique_id=294319028]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel7" type="ColorRect" parent="GridContainer" unique_id=189521115]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel7" unique_id=251351368]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel8" type="ColorRect" parent="GridContainer" unique_id=851426619]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel8" unique_id=1714476859]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel9" type="ColorRect" parent="GridContainer" unique_id=2027138923]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel9" unique_id=1308703602]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel10" type="ColorRect" parent="GridContainer" unique_id=1418182849]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel10" unique_id=1481963803]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel11" type="ColorRect" parent="GridContainer" unique_id=854328166]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel11" unique_id=324931892]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel12" type="ColorRect" parent="GridContainer" unique_id=836444290]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel12" unique_id=1107188554]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel13" type="ColorRect" parent="GridContainer" unique_id=1980584071]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel13" unique_id=1612128146]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel14" type="ColorRect" parent="GridContainer" unique_id=260617250]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel14" unique_id=413958974]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel15" type="ColorRect" parent="GridContainer" unique_id=499671268]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel15" unique_id=1732242108]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel16" type="ColorRect" parent="GridContainer" unique_id=1756815459]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel16" unique_id=652515603]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel17" type="ColorRect" parent="GridContainer" unique_id=1748413172]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel17" unique_id=1096581606]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel18" type="ColorRect" parent="GridContainer" unique_id=1300463675]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel18" unique_id=1831481001]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel19" type="ColorRect" parent="GridContainer" unique_id=826882064]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel19" unique_id=1232064721]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel20" type="ColorRect" parent="GridContainer" unique_id=1432856248]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel20" unique_id=1036635585]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel21" type="ColorRect" parent="GridContainer" unique_id=2083163934]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel21" unique_id=1969168585]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel22" type="ColorRect" parent="GridContainer" unique_id=889043869]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel22" unique_id=1358475916]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel23" type="ColorRect" parent="GridContainer" unique_id=630772678]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel23" unique_id=746337332]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel24" type="ColorRect" parent="GridContainer" unique_id=1174739142]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel24" unique_id=1110607584]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel25" type="ColorRect" parent="GridContainer" unique_id=1059999806]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel25" unique_id=23087899]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel26" type="ColorRect" parent="GridContainer" unique_id=48687290]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel26" unique_id=1412317793]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel27" type="ColorRect" parent="GridContainer" unique_id=396942006]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel27" unique_id=207944065]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel28" type="ColorRect" parent="GridContainer" unique_id=159141986]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel28" unique_id=849569601]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel29" type="ColorRect" parent="GridContainer" unique_id=935541671]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel29" unique_id=2117391519]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel30" type="ColorRect" parent="GridContainer" unique_id=554271490]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel30" unique_id=426538450]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel31" type="ColorRect" parent="GridContainer" unique_id=1853529560]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel31" unique_id=148653435]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel32" type="ColorRect" parent="GridContainer" unique_id=1925039624]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel32" unique_id=328923621]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel33" type="ColorRect" parent="GridContainer" unique_id=1238938712]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel33" unique_id=332915893]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel34" type="ColorRect" parent="GridContainer" unique_id=275083615]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel34" unique_id=1674173241]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel35" type="ColorRect" parent="GridContainer" unique_id=1704441125]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel35" unique_id=1816053683]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel36" type="ColorRect" parent="GridContainer" unique_id=731500124]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+color = Color(0.18598092, 0.18598092, 0.18598092, 1)
+
+[node name="Label" type="Label" parent="GridContainer/Panel36" unique_id=49707145]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1027664750]
+offset_left = 730.0
+offset_top = 57.0
+offset_right = 887.0
+offset_bottom = 116.0
+text = "寻路"
+
+[connection signal="pressed" from="Button" to="GridContainer" method="_on_button_pressed"]
