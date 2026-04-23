@@ -1,4 +1,4 @@
-#自创算法思路
+
 def sort_by_avg(arr):
     #如果不能再分,exmale:arr[2]，则直接返回
     if len(arr) <= 1:
